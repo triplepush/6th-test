@@ -45,6 +45,7 @@ function update() {
         allowEventDefault: true,
         throwProps: true,
         autoScroll: true,
+        cursor: none,
     });
 
 }
