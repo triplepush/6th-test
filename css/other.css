@@ -14,7 +14,7 @@
 body {
   position: relative;
   cursor: auto;
-  animation: loadingIn 1s;
+  animation: loadingIn 3s;
 }
 /* coordinate */
 #coords {
@@ -252,7 +252,7 @@ p {
   0% {opacity: 1;}
   30% {opacity: 1;}
   50% {opacity: 1;}
-  80% {opacity: 1;}
+  80% {opacity: 0;}
   100% {opacity: 0;} 
 }
 .loader{
