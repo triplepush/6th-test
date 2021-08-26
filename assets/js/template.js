@@ -113,3 +113,10 @@ jQuery(document).ready(function ($) {
     return (1-amt)*start+amt*end
     }
 });
+
+$(document).ready(function() {
+    $('coords').on('mousedown', function(e) {
+        e.preventDefault();
+        return false;
+    });
+  });
