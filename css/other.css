@@ -13,7 +13,7 @@
 }
 body {
   position: relative;
-  cursor: auto;
+  cursor: none;
   animation: loadingIn 3s;
 }
 /* coordinate */
