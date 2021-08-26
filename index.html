@@ -23,6 +23,10 @@
     <link rel="preconnect" href="assets/images/island/island--trans/" as="image">
 </head>
 <body>
+    <svg id="fader"></svg>
+    <script>
+        fadeInPage();
+    </script>
     <!-- Start of Cursor -->
     <div id="coords">
         <div id="Xbar"></div>
@@ -220,17 +224,6 @@
     </script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/template.js"></script>
-    <script>
-        $(document).ready(function(){   
-            window.setTimeout('fadeout();', 1000);
-        });
-        
-        function fadeout(){
-            $('.wrapper').fadeOut('fast', function() {
-               // Animation complete.
-            });
-        }
-    </script>        
 </body>
 
 </html>
