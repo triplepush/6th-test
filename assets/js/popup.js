@@ -25,7 +25,6 @@ var video = document.getElementById("video_background");
     newLocation = this.href;
     $('body').fadeOut(2000, newpage); //點選後淡出
 });
-  
     function newpage() {
     window.location = newLocation;
     }

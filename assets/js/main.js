@@ -36,17 +36,18 @@ showTime();
 
 //Draggable//
 var $container = $("#container");
-
 function update() {
     Draggable.create(".map", {
         bounds: $container,
-        edgeResistance: 0.65,
+        edgeResistance: 0.8,
+        inertia: true,
         type: "x,y",
+        allowEventDefault: true,
         throwProps: true,
         autoScroll: true,
     });
-}
 
+}
 update();
 
 //mini-map//
