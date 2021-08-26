@@ -9,7 +9,7 @@ var video = document.getElementById("video_background");
     video.addEventListener("canplay", function() {
     setTimeout(function() {
         video.play();
-        }, 3800);
+        }, 2000);
         video.pause();
         
     });
