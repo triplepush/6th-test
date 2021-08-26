@@ -24,6 +24,7 @@ var video = document.getElementById("video_background");
   
   function newpage() {
    window.location = newLocation;
+   $('body').fadeIn(2000);
   }
  });
 
