@@ -589,8 +589,8 @@ body {
           justify-content: center;
   opacity: 0;
   z-index: 100;
-  -webkit-animation: popup 0.1s ease-out 5.6s both, noise-1 4s linear 2 alternate-reverse, glitch-2 5s 1.5s 2;
-          animation: popup 0.1s ease-out 5.6s both, noise-1 4s linear 2 alternate-reverse, glitch-2 5s 1.5s 2;
+  -webkit-animation: popup 0.1s ease-out 3s both, noise-1 1.5s linear 2 alternate-reverse, glitch-2 5s 1.5s 2;
+          animation: popup 0.1s ease-out 3s both, noise-1 1.5s linear 2 alternate-reverse, glitch-2 5s 1.5s 2;
 }
 
 .popup .frame-item {

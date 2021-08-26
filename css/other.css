@@ -14,7 +14,7 @@
 body {
   position: relative;
   cursor: auto;
-  animation: loadingIn 3s;
+  animation: loadingIn 5s;
 }
 /* coordinate */
 #coords {
