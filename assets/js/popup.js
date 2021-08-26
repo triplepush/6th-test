@@ -21,8 +21,8 @@ var video = document.getElementById("video_background");
     event.preventDefault(); //取消事件預設動作
     newLocation = this.href;
     $('map').animate({
-        width: '150%',
-        height: '150%',
+        width: '3600px',
+        height: '2400px',
         opacity: 1,
     }, 'normal' , newpage ); //點選後淡出
 });
