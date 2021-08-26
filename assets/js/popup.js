@@ -35,6 +35,8 @@ function fadeInPage() {
     var fader = document.getElementById('fader');
     fader.classList.add('fade-out');
 }
+fadeInPage();
+
 document.addEventListener('DOMContentLoaded', function() {
     if (!window.AnimationEvent) { return; }
     var anchors = document.getElementsByTagName('a');
