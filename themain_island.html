@@ -115,5 +115,16 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/Draggable.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
         <script src="assets/js/popup.js"></script>
+        <script>
+            $(document).ready(function(){   
+                window.setTimeout('fadeout();', 1000);
+            });
+            
+            function fadeout(){
+                $('.loader').fadeOut('fast', function() {
+                   // Animation complete.
+                });
+            }
+        </script>   
 </body>
 </html>

@@ -18,7 +18,6 @@ var video = document.getElementById("video_background");
 */
 
  $(document).ready(function() {
-    window.setTimeout("fadeMyDiv();", 2000);
     $('body').css('display', 'none');
     $('body').fadeIn(1500); //一開始淡入
     $('a').click(function(event) { //點選 class 為 link 的 a 元件時觸發
@@ -26,9 +25,6 @@ var video = document.getElementById("video_background");
     newLocation = this.href;
     $('body').fadeOut(1500, newpage); //點選後淡出
 });
-    function fadeMyDiv() {
-        $("body").fadeOut('slow');
-    }
     function newpage() {
     window.location = newLocation;
     }

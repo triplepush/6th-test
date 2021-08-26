@@ -95,6 +95,17 @@
             <div class="frame-item frame-b" style="background-image: url(assets/images/popup/frame-b.png);"></div>
         </div>
         <!-- End popup -->
+        <script>
+            $(document).ready(function(){   
+                window.setTimeout('fadeout();', 1000);
+            });
+            
+            function fadeout(){
+                $('.loader').fadeOut('fast', function() {
+                   // Animation complete.
+                });
+            }
+        </script>   
         <script src="assets/js/popup.js"></script>
 </body>
 </html>
