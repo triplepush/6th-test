@@ -20,7 +20,7 @@ var video = document.getElementById("video_background");
     $('a').click(function(event) { //點選 class 為 link 的 a 元件時觸發
     event.preventDefault(); //取消事件預設動作
     newLocation = this.href;
-    $('map').animate({
+    $('.map').animate({
         width: '3600px',
         height: '2400px',
         opacity: 1,
