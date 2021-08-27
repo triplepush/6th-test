@@ -16,6 +16,8 @@ body {
   cursor: auto;
   animation: loadingIn 3s;
 }
+/* add transition fade out */
+/* add transition fade out */
 #fader {
   position: fixed;
   top: 0;
@@ -47,6 +49,8 @@ body {
   opacity: 1;
   animation-name: fade-in;
 }
+/* add transition fade out */
+/* add transition fade out */
 
 /* coordinate */
 #coords {

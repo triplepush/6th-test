@@ -16,19 +16,6 @@ var video = document.getElementById("video_background");
         
     });
 */
- $(document).ready(function() {
-    $('a').click(function(event) { //點選 class 為 link 的 a 元件時觸發
-    event.preventDefault(); //取消事件預設動作
-    newLocation = this.href;
-    $('.map').animate({
-        margin: '-60px',
-    }, 'normal' , newpage ); //點選後淡出
-});
-    function newpage() {
-    window.location = newLocation;
-    }
-});
-
 function fadeInPage() {
     if (!window.AnimationEvent) { return; }
     var fader = document.getElementById('fader');
