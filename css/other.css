@@ -76,7 +76,7 @@ body {
   line-height: 15pt;
   color: gray;
   letter-spacing: 0.5pt;
-  font-size: 1pt;
+  font-size: 10pt;
   pointer-events: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -159,7 +159,6 @@ body {
   src: url("../assets/font/Press_Start_2P/PressStart2P-Regular.ttf")
     format("truetype");
 }
-
 @font-face {
   font-family: zh-title;
   font-display: swap;
